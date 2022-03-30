@@ -1,5 +1,9 @@
 public class Assegnatore {
-    private int totPosti = 20;
+    private int totPosti;
+
+    public Assegnatore() {
+        this.totPosti = 20;
+    }
 
     public synchronized boolean assegnaPosti(String cliente, int numPosti) {
         System.out.println("--Richiesta di " + numPosti + " da " + cliente);
@@ -15,4 +19,3 @@ public class Assegnatore {
         return totPosti;
     }
 }
-
