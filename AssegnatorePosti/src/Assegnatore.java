@@ -2,7 +2,7 @@ public class Assegnatore {
     private int totPosti;
 
     public Assegnatore() {
-        this.totPosti = 20;
+        totPosti = 20;
     }
 
     public synchronized boolean assegnaPosti(String cliente, int numPosti) {
