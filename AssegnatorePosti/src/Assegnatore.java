@@ -15,7 +15,7 @@ public class Assegnatore {
         return false;
     }
 
-    int getPosti() {
+    int getTotPosti() {
         return totPosti;
     }
 }
