@@ -15,6 +15,6 @@ public class Main {
         client1.start(); client2.start(); client3.start(); client4.start();
         client1.join(); client2.join(); client3.join(); client4.join();
 
-        System.out.println("Numero di posti ancora disponibili: " + assegnatore.getPosti());
+        System.out.println("Numero di posti ancora disponibili: " + assegnatore.getTotPosti());
     }
 }
